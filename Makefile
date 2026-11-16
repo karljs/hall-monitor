@@ -31,7 +31,8 @@ pack:
 		--extra-source=impl.js \
 		--extra-source=eds.js \
 		--extra-source=util.js \
-		--extra-source=help.js
+		--extra-source=help.js \
+		--extra-source=icon.png
 
 # EDS atexit teardown segfaults the standalone probe after all output is printed;
 # the leading - keeps that cosmetic crash from failing the target.

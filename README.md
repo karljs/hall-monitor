@@ -7,6 +7,8 @@ This Gnome extension will pop up an unmissable, full-screen modal reminder when
 you have just a minute to go (time configurable). Tries to skip the warning when
 your focused window title matches the event.
 
+![Hall Monitor blocking a meeting](demo.png)
+
 ## Depends
 
 Ubuntu/Debian:
