@@ -1,0 +1,9 @@
+{
+  "uuid": "hall-monitor@karlsmeltzer.com",
+  "name": "Hall Monitor",
+  "description": "Full-screen blocking reminder before calendar events",
+  "shell-version": ["50"],
+  "version": 1,
+  "url": "https://github.com/karljs/hall-monitor",
+  "settings-schema": "org.gnome.shell.extensions.hall-monitor"
+}

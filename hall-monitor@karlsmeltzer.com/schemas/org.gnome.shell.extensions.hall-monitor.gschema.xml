@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.hall-monitor"
+          path="/org/gnome/shell/extensions/hall-monitor/">
+    <key name="lead-minutes" type="i">
+      <default>1</default>
+      <range min="0" max="15"/>
+      <summary>Minutes before event start to trigger</summary>
+    </key>
+    <key name="no-link-action" type="s">
+      <choices>
+        <choice value="block"/>
+        <choice value="notify"/>
+        <choice value="ignore"/>
+      </choices>
+      <default>'ignore'</default>
+      <summary>Behavior for events without a meeting link</summary>
+    </key>
+  </schema>
+</schemalist>

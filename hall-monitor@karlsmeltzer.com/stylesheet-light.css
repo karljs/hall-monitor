@@ -1,0 +1,36 @@
+/* light-variant recipe; mirrors the theme's modal-dialog-button:focus (light) */
+
+.hallmonitor-overlay {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.hallmonitor-card {
+    padding: 48px 64px;
+}
+
+.hallmonitor-card .hallmonitor-title {
+    font-size: 3em;
+}
+
+/* long event titles need more than the theme's 28em dialog cap */
+.hallmonitor-card .modal-dialog-content-box {
+    max-width: 48em;
+}
+
+.hallmonitor-card .hallmonitor-sub {
+    font-size: 1.5em;
+}
+
+.hallmonitor-btn-primary {
+    color: #222226 !important;
+    background-color: st-mix(-st-accent-color, rgba(34, 34, 38, 0.1), 5%) !important;
+    box-shadow: inset 0 0 0 2px st-transparentize(-st-accent-color, 0.2) !important;
+}
+
+.hallmonitor-btn-primary:hover {
+    background-color: st-mix(-st-accent-color, rgba(34, 34, 38, 0.13), 5%) !important;
+}
+
+.hallmonitor-btn-primary:active {
+    background-color: st-mix(-st-accent-color, rgba(34, 34, 38, 0.16), 5%) !important;
+}
